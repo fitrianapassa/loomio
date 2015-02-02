@@ -1,20 +1,27 @@
 .help {
   h1 {
     font-size: 36px;
-    margin-top: 2em;
+    margin: 1em 0;
     border-bottom: 1px solid;
   }
   h2 {
     font-size: 28px;
+    margin: 1em 0;
   }
   h3{
     font-size: 18px;
     line-height: 1.2;
-    margin-bottom: 0.3em
+    margin: 1em 0;
+  }
+  h4 {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1em;
   }
   p {
     font-size: 15px;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     line-height: 1.4;
   }
   #sidenav {
@@ -43,13 +50,47 @@
       }
     }
   }
+  .screenshot { margin-bottom: 30px; }
+
+  .import-contacts-permission { float: right; }
+
+  #contents {
+    p {
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+  }
+
+  #subheadings {
+    p { 
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+
+  #sub-subheadings {
+    p {
+      display: list-item;
+      font-size: 13px;
+      font-style: italic;
+      font-weight: 300;
+      margin-left: 20px;
+    }
+  }
+  .deactivation {
+    li { margin-bottom: 10px }
+    font-size: 15px;
+    list-style: circle;
+    margin-left: 20px;
+  }
 }
+
+.help-container { padding: 0 40px; }
 /*Styles applied to both in-app help and marketing site*/
 .help, .pages.purpose{
   #help-content {
     h2 {
       margin-bottom: .3em;
-      margin-top: 2em;
       .blue{ color: #0088cc; }
     }
     iframe { margin-top: 0; }
@@ -59,14 +100,13 @@
     }
     .example, .extra-margin{ margin-top: 32px}
     .positions {
-      margin-top: 92px;
       img {
         border: none;
         margin: 0 4px 15px 0;
         width: 30px;
       }
-      p { margin-bottom: 1em; }
       span { font-weight: 700; }
+      margin-bottom: 50px;
     }
   }
 }

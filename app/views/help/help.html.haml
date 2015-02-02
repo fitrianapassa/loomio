@@ -1,15 +1,17 @@
-.col-md-12#help-content
-  %section#how-it-works
-    .inner-container
-      = render 'help/how_it_works'
-      = render 'help/more_feature_help'
-  %section#getting-the-most-out-of-Loomio
-    .inner-container
-      = render 'help/more_culture_help'
-  %section#coordinating-your-Loomio-group
-    .inner-container
-      = render 'help/coordinator_help'
-  %section#get-in-touch
-    .inner-container
-      = render 'help/feedback'
-.clearfix
+.row
+  .col-md-12#help-content
+    = render "contents"
+    = render "what_is_loomio"
+    = render "getting_started"
+    = render "group_settings"
+    = render "dashboard"
+    = render "coordinator_tasks"
+    = render "member_actions"
+    = render "discussion_threads"
+    = render "comments"
+    = render "proposals"
+    = render "subgroups"
+    = render "keeping_up_to_date"
+    = render "user_profile"
+    = render "translation"
+    = render "security"
