@@ -63,27 +63,20 @@
   #help-header { margin-top: 10px; }
 
   #contents {
-    p {
-      font-size: 14px;
-      font-weight: 300;
-      margin-bottom: 15px;
+    ul {
+      margin-bottom: 24px;
     }
-    .col-sm-3 {
-      padding-left: 10px;
-      padding-right: 10px;
+    .single-item {
+      font-size: 16px;
+      font-weight: 600;
+      a { margin-bottom: 10px; }
     }
-
-    #contents-options {
-      border: 1px solid #999999; ;
-      border-radius: 4px;
-      margin: 20px 0;
-      text-align: center;
-      p {
-        font-size: 15px;
-        padding: 0 10px;
-      }
+    li { margin-bottom: 10px; }
+    .top-level {
+      font-size: 16px;
+      font-weight: 600;
     }
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .screenshot { margin-bottom: 30px; }
